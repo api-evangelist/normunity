@@ -1,7 +1,14 @@
 aid: normunity
 name: Normunity
-description: Normunity is a company surfaced as a portfolio company of canaan-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Normunity is a clinical-stage biotechnology company developing novel anti-cancer
+  therapies that work at the interface of the immune system and the tumor. In collaboration
+  with the Lieping Chen lab at the Yale School of Medicine, Normunity has identified a
+  novel class of "Immuno-smart targets" — tumor-specific, cell-surface proteins co-opted
+  by cancer cells to drive local immune suppression — and is building a pipeline of biologic
+  medicines including therapeutic antibodies, bispecific antibodies, and payload-carrying
+  biologics. Its lead program, NRM-823, is a T cell engager that has entered clinical trials.
+  Normunity is backed by Canaan Partners. This is a corporate/scientific company with no
+  public API, developer portal, or programmatic surface.
 url: https://raw.githubusercontent.com/api-evangelist/normunity/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +16,48 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Immuno-Oncology
+- Oncology
+- Cancer
+- Therapeutics
+- Immunology
+- Antibodies
+- Clinical Trials
+- Pharmaceuticals
+image: https://normunity.com/wp-content/uploads/2022/10/normunity-logo.png
 apis: []
+common:
+- type: Website
+  url: https://normunity.com/
+- type: X
+  url: https://x.com/normunity
+- type: LinkedIn
+  url: https://www.linkedin.com/company/normunity
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: Clinical-stage immuno-oncology biotech; no public API, developer portal, or programmatic surface. Identity hygiene enriched; domain probed.
